@@ -8,5 +8,3 @@
         upgrade: yes
         update_cache: yes
 
-- debug:
-    msg: "Server is back up and running"
