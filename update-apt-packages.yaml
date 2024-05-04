@@ -1,8 +1,9 @@
 ---
 - hosts: all
-sudo: yes
+  
 
   become: true
+  sudo: yes
   tasks:
     - name: update apt packages
       apt:
